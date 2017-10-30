@@ -11,6 +11,7 @@
 #import "ToggleButton.h"
 #import "BXButtonFactory.h"
 #import "ColorPicker.h"
+#import "CircleSlider.h"
 @interface ViewController ()
 
 @end
@@ -51,10 +52,14 @@
     [self.view addSubview:b2];
     
     */
-    ColorPicker* cPicker = [[ColorPicker alloc] initWithFrame:CGRectMake(10,10, 200,200 )];
-    [self.view addSubview:cPicker];
+   // ColorPicker* cPicker = [[ColorPicker alloc] initWithFrame:CGRectMake(10,10, 200,200 )];
+   // [self.view addSubview:cPicker];
     
     
+    CircleSlider* circleSlider = [[CircleSlider alloc] initWithFrame:CGRectMake(0, 0,250,50)];
+    circleSlider.center= CGPointMake(self.view.center.x,self.view.center.y);
+    circleSlider.backgroundColor = [UIColor purpleColor];
+    [self.view addSubview:circleSlider];
     
     
     

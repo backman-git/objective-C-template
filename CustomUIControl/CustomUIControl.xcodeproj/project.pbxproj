@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0742901FA6A03A00B5E79A /* CircleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07428F1FA6A03A00B5E79A /* CircleSlider.m */; };
 		8F750F0D1F9ECE31009A9531 /* BXButtonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F750F0C1F9ECE31009A9531 /* BXButtonFactory.m */; };
 		8F750F101F9ECE9F009A9531 /* ToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F750F0F1F9ECE9F009A9531 /* ToggleButton.m */; };
 		8FF4D2251F9CD1290049F168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4D2241F9CD1290049F168 /* main.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F07428E1FA6A03A00B5E79A /* CircleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSlider.h; sourceTree = "<group>"; };
+		8F07428F1FA6A03A00B5E79A /* CircleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSlider.m; sourceTree = "<group>"; };
 		8F750F0B1F9ECE31009A9531 /* BXButtonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXButtonFactory.h; sourceTree = "<group>"; };
 		8F750F0C1F9ECE31009A9531 /* BXButtonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXButtonFactory.m; sourceTree = "<group>"; };
 		8F750F0E1F9ECE9F009A9531 /* ToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToggleButton.h; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				8F750F0C1F9ECE31009A9531 /* BXButtonFactory.m */,
 				8F750F0E1F9ECE9F009A9531 /* ToggleButton.h */,
 				8F750F0F1F9ECE9F009A9531 /* ToggleButton.m */,
+				8F07428E1FA6A03A00B5E79A /* CircleSlider.h */,
+				8F07428F1FA6A03A00B5E79A /* CircleSlider.m */,
 			);
 			path = CustomUIControl;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				8FF4D23F1F9D7CBF0049F168 /* BXUImageView.m in Sources */,
 				8F750F101F9ECE9F009A9531 /* ToggleButton.m in Sources */,
 				8F750F0D1F9ECE31009A9531 /* BXButtonFactory.m in Sources */,
+				8F0742901FA6A03A00B5E79A /* CircleSlider.m in Sources */,
 				8FF4D2251F9CD1290049F168 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
